@@ -9,7 +9,14 @@ export const initialEdges = [
       type: edgeType,
       target: 'float-tank-1',
       markerEnd: {
-        type: MarkerType.Arrow,
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: '#1e1e1e',
+      },
+      style: {
+        strokeWidth: 2,
+        stroke: '#1e1e1e',
       },
     },
     {
@@ -18,7 +25,14 @@ export const initialEdges = [
       type: edgeType,
       target: 'float-tank-1',
       markerEnd: {
-        type: MarkerType.Arrow,
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: '#1e1e1e',
+      },
+      style: {
+        strokeWidth: 2,
+        stroke: '#1e1e1e',
       },
     },
     {
@@ -27,7 +41,14 @@ export const initialEdges = [
       type: edgeType,
       target: 'float-tank-2',
       markerEnd: {
-        type: MarkerType.Arrow,
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: '#1e1e1e',
+      },
+      style: {
+        strokeWidth: 2,
+        stroke: '#1e1e1e',
       },
     },
     {
@@ -36,7 +57,14 @@ export const initialEdges = [
       type: edgeType,
       target: 'float-tank-3',
       markerEnd: {
-        type: MarkerType.Arrow,
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: '#1e1e1e',
+      },
+      style: {
+        strokeWidth: 2,
+        stroke: '#1e1e1e',
       },
     },
     {
@@ -45,7 +73,14 @@ export const initialEdges = [
       type: 'edgeType',
       target: 'float-tank-4',
       markerEnd: {
-        type: MarkerType.Arrow,
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: '#1e1e1e',
+      },
+      style: {
+        strokeWidth: 2,
+        stroke: '#1e1e1e',
       },
     },
     {
@@ -54,7 +89,14 @@ export const initialEdges = [
       type: edgeType,
       target: 'float-tank-5',
       markerEnd: {
-        type: MarkerType.Arrow,
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: '#1e1e1e',
+      },
+      style: {
+        strokeWidth: 2,
+        stroke: '#1e1e1e',
       },
     },
     {
@@ -63,7 +105,14 @@ export const initialEdges = [
       type: edgeType,
       target: 'float-tank-6',
       markerEnd: {
-        type: MarkerType.Arrow,
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: '#1e1e1e',
+      },
+      style: {
+        strokeWidth: 2,
+        stroke: '#1e1e1e',
       },
     },
        {
@@ -72,7 +121,14 @@ export const initialEdges = [
       type: edgeType,
       target: 'float-tank-4',
       markerEnd: {
-        type: MarkerType.Arrow,
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: '#1e1e1e',
+      },
+      style: {
+        strokeWidth: 2,
+        stroke: '#1e1e1e',
       },
     },
     {
@@ -81,7 +137,14 @@ export const initialEdges = [
       type: edgeType,
       target: 'float-tank-5',
       markerEnd: {
-        type: MarkerType.Arrow,
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: '#1e1e1e',
+      },
+      style: {
+        strokeWidth: 2,
+        stroke: '#1e1e1e',
       },
     },
     {
@@ -90,16 +153,30 @@ export const initialEdges = [
       type: edgeType,
       target: 'float-tank-7',
       markerEnd: {
-        type: MarkerType.Arrow,
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: '#1e1e1e',
       },
-    },
+      style: {
+        strokeWidth: 2,
+        stroke: '#1e1e1e',
+      },
+      },
     {
       id: 'float-tank-9-to-7-edge',
       source: 'float-tank-9',
       type: 'step',
       target: 'float-tank-7',
       markerEnd: {
-        type: MarkerType.Arrow,
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: '#1e1e1e',
+      },
+      style: {
+        strokeWidth: 2,
+        stroke: '#1e1e1e',
       },
     },
     {
@@ -108,7 +185,14 @@ export const initialEdges = [
       type: 'step',
       target: 'float-tank-9',
       markerEnd: {
-        type: MarkerType.Arrow,
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: '#1e1e1e',
+      },
+      style: {
+        strokeWidth: 2,
+        stroke: '#1e1e1e',
       },
     },
     {
@@ -117,7 +201,14 @@ export const initialEdges = [
       type: edgeType,
       target: 'float-tank-8',
       markerEnd: {
-        type: MarkerType.Arrow,
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: '#1e1e1e',
+      },
+      style: {
+        strokeWidth: 2,
+        stroke: '#1e1e1e',
       },
     },
     {
@@ -126,7 +217,14 @@ export const initialEdges = [
       type: edgeType,
       target: 'float-tank-9',
       markerEnd: {
-        type: MarkerType.Arrow,
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: '#1e1e1e',
+      },
+      style: {
+        strokeWidth: 2,
+        stroke: '#1e1e1e',
       },
     },
     {
@@ -135,7 +233,14 @@ export const initialEdges = [
       type: edgeType,
       target: 'float-tank-10',
       markerEnd: {
-        type: MarkerType.Arrow,
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: '#1e1e1e',
+      },
+      style: {
+        strokeWidth: 2,
+        stroke: '#1e1e1e',
       },
     },
     {
@@ -144,7 +249,14 @@ export const initialEdges = [
       type: 'step',
       target: 'float-sump-1',
       markerEnd: {
-        type: MarkerType.Arrow,
+        type: MarkerType.ArrowClosed,
+        width: 10,
+        height: 10,
+        color: '#1e1e1e',
+      },
+      style: {
+        strokeWidth: 2,
+        stroke: '#1e1e1e',
       },
     }
   ] satisfies Edge[];

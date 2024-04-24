@@ -9,7 +9,6 @@ export const initialNodes = [
     data: { label: 'float-machine-1' },
     position: { x: 0, y: 0 },
     style,
-
   },
   {
     id: 'float-machine-2',
@@ -99,12 +98,11 @@ export const initialNodes = [
     sourcePosition: Position.Bottom,
     type: 'float-tank-9',
     data: { label: 'float-tank-9' },
-    position: { x: 400, y: 200 },
+    position: { x: 450, y: 200 },
     style,
   },
   {
     id: 'float-tank-10',
-    
     type: 'float-tank-10',
     data: { label: 'float-tank-10' },
     position: { x: 600, y: 200 },
@@ -116,16 +114,16 @@ export const initialNodes = [
     targetPosition: Position.Bottom,
     type: 'float-sump-1',
     data: { label: 'float-sump-1' },
-    position: { x: 800, y: 220 },
+    position: { x: 800, y: 200 },
     style,
   },
   {
     id: 'float-sump-2',
     type: 'float-sump-2',
-    sourcePosition: Position.Left,
+    sourcePosition: Position.Top,
     targetPosition: Position.Top,
     data: { label: 'float-sump-2' },
-    position: { x: 800, y: 270 },
+    position: { x: 800, y: 250 },
     style,
   }
 ] satisfies Node[];

@@ -14,12 +14,13 @@ import {
 import "reactflow/dist/style.css";
 
 import { initialNodes, nodeTypes } from "./nodes";
-import { initialEdges } from "./edges";
+import { initialEdges, edgeTypes } from "./edges";
 
 export default function App() {
   const [nodes, _, onNodesChange] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
   const onConnect = useCallback<OnConnect>((params: any) => setEdges((els) => addEdge(params, els)), []);
+  
 
   return (
     <ReactFlow
@@ -27,15 +28,14 @@ export default function App() {
       nodeTypes={nodeTypes}
       onNodesChange={onNodesChange}
       edges={edges}
+      edgeTypes={edgeTypes}
       onEdgesChange={onEdgesChange}
       onConnect={onConnect}
       fitView
     >
-      <Background />
+      <Background color="black"/>
       <MiniMap />
       <Controls />
     </ReactFlow>
   );
 }
-
-
